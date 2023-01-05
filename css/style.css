@@ -1,48 +1,97 @@
 *{
-font-family: 'Open Sans', sans-serif;
-margin: 0;
-}
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    }
+    
+    .text-primary{
+        color: #FD6E0A;
+    }
+    
+    .btn-primary{
+        background: #FD6E0A;
+        border-radius: 5px;
+        font-size: 20px;
+        font-weight: 600;
+        color: #FFFFFF;
+        border: none;
+        /* width: 150px; */
+        /* height: 64px; */
+        padding: 10px 20px;
+    }
+    /* header section start */
+    .header{
+        background: #FFF8F3;
+        background-image: url(../images/header_bg.png),url(../images/developer.png);
+        background-repeat: no-repeat;
+        background-position: right bottom, left;
+        padding-top: 10px;
 
-.text-primary{
-    color: #FD6E0A;
-}
 
-.btn-primary{
+    }
+    .nav-title{
+        font-size: 45px;
+        font-weight: 600;
+    }
+    nav{
+        display:flex;
+        justify-content: space-between;
+        margin: 0px  150px 50px;
+    }
+    
+    nav li{
+        list-style-type: none;
+        display:inline-block;
+        padding: 10px 10px;
+       
+    }
+    nav a{
+        text-decoration: none;
+        color: black;
+        font-size: 19px;
+        font-weight: 600;
+    }
+    nav button{
+    height: 64px;
     background: #FD6E0A;
+    border-radius: 5px;
+    
+    }
+    /* banner section start */
+    .banner{
+        display: flex;
+        align-items: center;
+        margin: 50px 150px;
+        
+    }
+    .banner-sub-title{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 45px;
+        color: #474747;
+    }
+    .banner-title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 59px;
+    color: #181818;
+    }
+    .banner-pragraph{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    padding-bottom: 10px;
+    }
+    .btn-secondre{
+    border: 1px solid #FD6E0A;
     border-radius: 5px;
     font-size: 20px;
     font-weight: 600;
-    color: #FFFFFF;
-    border: none;
-    width: 150px;
-    height: 64px;
-}
-/* header section start */
-.nav-title{
-    font-size: 45px;
-    font-weight: 600;
-}
-nav{
-    display:flex;
-    justify-content: space-between;
-    margin: 50px 200px;
-}
-nav ul{
-
-}
-nav li{
-    list-style-type: none;
-    display:inline-block;
-    padding: 10px 10px;
-   
-}
-nav a{
-    text-decoration: none;
-    color: black;
-}
-nav button{
-height: 64px;
-background: #FD6E0A;
-border-radius: 5px;
-
-}
+    color: #FD6E0A;
+    padding: 9px 20px;
+    margin-left: 10px;
+        
+    }
