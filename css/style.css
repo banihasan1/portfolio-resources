@@ -139,3 +139,61 @@
     font-size: 19px;
     font-weight: 500;
 }
+/* what i do  section */
+.do-it-sec{
+    margin-top: 130px;
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding:100px 150px;
+}
+.do-sec-title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+.do-sec-pragraph{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    color: #181818;
+    padding: 10px 0px;
+}
+.do-info-container{
+    display:flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.do-info{
+    padding: 34px 10px;
+    text-align: left;
+    line-height: 26px;
+    background: white;
+    margin-right: 10px;
+    -webkit-box-shadow: -1px 10px 55px -11px rgba(0,0,0,0.35);
+    -moz-box-shadow: -1px 10px 55px -11px rgba(0,0,0,0.35);
+    box-shadow: -1px 10px 55px -11px rgba(0,0,0,0.35);
+}
+.do-img{
+
+}
+.do-info-title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+    padding: 19px 0px;
+}
+.do-info-caption{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+}
+
+
