@@ -93,5 +93,49 @@
     color: #FD6E0A;
     padding: 9px 20px;
     margin-left: 10px;
-        
     }
+/* main section  start*/
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-section{
+    margin-top: 130px;
+    text-align: center;
+    background: antiquewhite;
+    border-radius: 10px;
+    padding:100px 150px;
+}
+.about-title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+.about-pragraph{
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    color: #181818;
+    padding: 10px 0px;
+}
+.about-info-container{
+    display:flex;
+   justify-content: space-around;
+   padding-top: 30px;
+}
+.about-info{
+
+}
+.about-info-title{
+    font-size: 15px;
+    color: #757575;
+}
+.about-info-caption{
+    color: #474747;
+    font-size: 19px;
+    font-weight: 500;
+}
